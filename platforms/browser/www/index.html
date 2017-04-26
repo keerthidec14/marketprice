@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Market Price</title>
+</head>
+
+<body>
+    <div class="app">
+      <div class="container">
+        <h1 class="text-center"><u>Market Price</u> <button id="refresh" class="btn btn-primary">Refresh</button> </h1>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Amla (ಆಮ್ಲ) </h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item1">00.00</span></h3>
+          </div>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Avarekai (ಅವರೆಕಾಯಿ) </h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item2">00.00</span></h3>
+          </div>
+        </div>
+
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Baby Corn (ಬೇಬಿ ಕಾರ್ನ್) </h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item3">00.00</span></h3>
+          </div>
+        </div>
+
+
+
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Baby corn cleaned(ಬೇಬಿ ಕಾರ್ನ್ ಕ್ವೀನ್ಡ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item4">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Basale Greens (ಬಸಳೆ ಗ್ರೀನ್ಸ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item5">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Beans (ಬೀನ್ಸ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item6">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Beet Root (ಬೀಟ್ ರೂಟ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item7">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Bitter Gourd (ಬಿಟರ್ ಗೌರ್ಡ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item8">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Bottle Gourd (ಬಾಟಲ್ ಗೌರ್ಡ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item9">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Brinjal (R) (ಬ್ರಿಂಜಲ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item10">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Brinjal (W) (ಬ್ರಿಂಜಲ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item11">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Brinjal Bottle (ಬ್ರಿಂಜಲ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item12">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Cabbage (ಎಲೆಕೋಸು)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item13">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Cabbage Red (ಎಲೆಕೋಸು)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item14">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Capsicum (ಕ್ಯಾಪ್ಸಿಕಂ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item15">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Capsicum Red/Yellow (ಕ್ಯಾಪ್ಸಿಕಂ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item16">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Carrot Delhi (ಕ್ಯಾರೆಟ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item17">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Carrot Nati (ಕ್ಯಾರೆಟ್ ನಾಟಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item18">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Carrot ooty (ಕ್ಯಾರೆಟ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item19">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Cauliflower /Kg (ಹೂಕೋಸು)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item20">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Cauliflower(B) (ಹೂಕೋಸು)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item21">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Chakota greens (ಚಕೋಟಾ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item22">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Chillies Bajji (ಚಿಲ್ಲೀಸ್ ಬಜ್ಜಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item23">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Chillies Green (ಚಿಲ್ಲೀಸ್ ಗ್ರೀನ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item24">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Chow-Chow (ಚೌ-ಚೌ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item25">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Cluster Bean Local (ಕ್ಲಸ್ಟರ್ ಬೀನ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item26">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Coconut (B) (ತೆಂಗಿನ ಕಾಯಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item27">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Coconut (M) (ತೆಂಗಿನ ಕಾಯಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item28">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Coconut (S) (ತೆಂಗಿನ ಕಾಯಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item29">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Corriander Leave (ಕೊತ್ತುಂಬರಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item30">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Cucumber (ಸೌತೆಕಾಯಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item31">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Curry leave (ಕರಿ ಎಲೆ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item32">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Dhantu greens (ಧಂಟು ಗ್ರೀನ್ಸ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item33">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Double Beans (ಡಬಲ್ ಬೀನ್ಸ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item34">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Drumstik (ಡ್ರಮ್ಸ್ಟಿಕ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item35">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Eggs (ಮೊಟ್ಟೆ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item36">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Garlic (ಬೆಳ್ಳುಳ್ಳಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item37">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Ginger New (ಶುಂಠಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item38">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Greens Sabbakki (ಗ್ರೀನ್ಸ್ ಸಬ್ಬಕ್ಕಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item39">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Ground nut Local (ಕಡಲೆಕಾಯಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item40">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Herali kai (ಹೆರಾಲಿ ಕಾಯಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item41">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">knol-khol (ಕ್ನೋಲ್-ಖೋಲ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item42">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Ladys finger (ಲೇಡಿಸ್ ಫಿಂಗರ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item43">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Lime Local (ನಿಂಬೆ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item44">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Little gourd (ಲಿಟ್ಲ್ ಗೌರ್ಡ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item45">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mangalore cucumber (ಮ್ಯಾಂಗಲೋರ್ ಕ್ಯುಕಂಬೆರ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item46">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango Raw (ಮಾವು)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item47">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Menthya Greens (ಮೆಂತ್ಯ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item48">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mint Leaves (ಪುದೀನ ಎಲೆಗಳು)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item49">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mushroom Button (ಮಶ್ರೂಮ್ ಬಟನ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item50">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mushroom Oyster (ಮಶ್ರೂಮ್ ಒಯ್ಸ್ಟರ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item51">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Onion medium (ಈರುಳ್ಳಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item52">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Palak Greens (ಪಾಲಾಕ್ ಗ್ರೀನ್ಸ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item53">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Peas Delhi (ಅವರೆಕಾಳು)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item54">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Peas local (ಅವರೆಕಾಳು)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item55">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Peas seeds (ಅವರೆಕಾಳು ಬೀಜ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item56">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Potato(M) (ಆಲೂಗಡ್ಡೆ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item57">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Pumpkin Ash (ಕುಂಬಳಕಾಯಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item58">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Pumpkin Japan (ಕುಂಬಳಕಾಯಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item59">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Raddish (ರಾಡಿಶ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item60">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Raddish Red (ರಾಡಿಶ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item61">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Sham gadde (ಶಾಮ್ ಗ್ಯಾಡೆಡ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item62">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Snake Gourd (ಸ್ನೇಕ್ ಗೌರ್ಡ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item63">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Snake Gourd(S) (ಸ್ನೇಕ್ ಗೌರ್ಡ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item64">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Sponge Gourd (ಸ್ಪಾಂಜ್ ಗೌಡ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item65">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Spring Onion (ಸ್ಪ್ರಿಂಗ್ ಆನಿಯನ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item66">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Spring Onion(Clean)(ಸ್ಪ್ರಿಂಗ್ ಆನಿಯನ್) </h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item67">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Sweet corn (ಸ್ವೀಟ್ ಕಾರ್ನ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item68">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Sweet corn seed(ಸ್ವೀಟ್ ಕಾರ್ನ್ ಬೀಜ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item69">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Tender Coconut (ಟೆಂಡರ್ ತೆಂಗಿನಕಾಯಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item70">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Thogari kai (ತೊಗರಿ ಕಾಯಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item71">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Tomoto (ಟೊಮೆಟೊ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item72">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Yam/S.Root</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item73">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Anjura/Fig (ಅಂಜೂರ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item74">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Apple Chilli (ಆಪಲ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item75">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Apple Delicious(ಆಪಲ್ ರುಚಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item76">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Apple Fuji chaina (ಆಪಲ್ ಫುಜಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item77">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Apple Green smith (ಆಪಲ್ ಹಸಿರು ಸ್ಮಿತ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item78">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Apple Washington (ಆಪಲ್ ವಾಷಿಂಗ್ಟನ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item79">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Banana chandra (ಬನಾನಾ ಚಂದ್ರ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item80">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Banana Nendra (ಬನಾನ ನೆಂದ್ರ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item81">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Banana pachabale (ಪಚಬಾಳೆ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item82">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Banana Yellaki (ಯೆಲ್ಲಕಿಬಾಳೆ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item83">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Chain Berry (ಚೈನ್ ಬೆರಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item84">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Chicco(Sapota) (ಸಪೋಟಾ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item85">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Grapes Blore blue (ದ್ರಾಕ್ಷಿ ಬೆಂಗಳೂರು)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item86">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Grapes Flame (ದ್ರಾಕ್ಷಿ ಫ್ಲೇಮ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item87">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Grapes Krishna sharad (ದ್ರಾಕ್ಷಿ ಕೃಷ್ಣ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item88">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Grapes Red globe (ದ್ರಾಕ್ಷಿ ಕೆಂಪು)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item89">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Grapes Sonika (ದ್ರಾಕ್ಷಿ ಸೋನಿಕಾ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item90">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Grapes T.S. (ದ್ರಾಕ್ಷಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item91">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Guava (ಗೌವಾ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item92">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Guava Allahabad(Red) (ಗೌವಾ ಕೆಂಪು)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item93">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Indian Black globe Grapes (ಕಪ್ಪು ದ್ರಾಕ್ಷಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item94">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango Amarpalli (ಮಾಂಗೋ ಅಮ್ರಾಪಾಲಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item95">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango Badami (ಮಾವು ಬಾದಾಮಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item96">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango Bygan palli (ಮಾವು ಬೈಗಾನ್ ಪಲ್ಲಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item97">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango Dasheri (ಮಾವು ದಶೇರಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item98">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango kalapadu (ಮಾವು ಕಲಾಪಾಡು)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item99">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango Kesar (ಮಾವು ಕೇಸರ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item100">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango malagova (ಮಾವು ಮಲಗೊವಾ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item101">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango mallika (ಮಾವು ಮಲ್ಲಿಕಾ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item102">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango Neelam (ಮಾವು ನೀಲಮ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item103">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango Raspuri (ಮಾವು ರಾಸ್ಪುರಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item104">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango sakkaregutti (ಮಾವು ಸಕ್ಕರೆಗುಟ್ಟಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item105">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango Sendura (ಮಾವು ಸೆಂಡೂರಾ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item106">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mango thotapuri (ಮಾವು ಥೋಟಪುರಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item107">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mosambi (ಮೊಸಂಬಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item108">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Orange Australia (ಕಿತ್ತಳೆ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item109">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Orange Nagpura (ಕಿತ್ತಳೆ ನಾಗುಪುರ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item110">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Orange Ooty (ಕಿತ್ತಳೆ ಊಟಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item111">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Papaya nati (ಪಪಾಯ ನಾಟಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item112">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Papaya red indian (ಪಪಾಯ ಕೆಂಪು)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item113">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Papaya sola (ಪಪಾಯ ಸೋಲ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item114">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Papaya Taiwan (ಪಪಾಯ ತೈವಾನ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item115">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Pineapple (ಅನಾನಸ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item116">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Pomegranate Bhagav (ದಾಳಿಂಬೆ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item117">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">S.mellon Local (Luck) (S. ಮೆಲ್ಲನ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item118">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">S.mellon namdhari (S. ಮೆಲ್ಲನ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item119">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Straw Berry (ಸ್ಟ್ರಾಬೆರಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item120">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Watermellon (ಕಲ್ಲಂಗಡಿ)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item121">00.00</span></h3>
+          </div>
+        </div>
+
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Watermellon kiran (ಕಲ್ಲಂಗಡಿ ಕಿರಣ್)</h3>
+          </div>
+          <div class="panel-body">
+            <h3>₹ <span id="item122">00.00</span></h3>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
