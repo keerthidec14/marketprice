@@ -123,6 +123,7 @@ var item119="0";
 var item120="0";
 var item121="0";
 var item122="0";
+var item123="0";
 
 var test="fail";
 
@@ -134,6 +135,10 @@ var test="fail";
       $(document).ready(function() {
 
           ajaxCall();
+
+          setTimeout(ajaxCall();, 5000);
+
+
           $("#refresh").click(function(){
               ajaxCall();
           });
@@ -275,7 +280,7 @@ var test="fail";
           item120=json[120];
           item121=json[121];
           item122=json[122];
-
+          item123=json[123];
 
           saveData();
         }
@@ -420,6 +425,7 @@ var test="fail";
       localStorage.setItem('item120', item120);
       localStorage.setItem('item121', item121);
       localStorage.setItem('item122', item122);
+      localStorage.setItem('item123', item123);
   }
   function getData()
   {
@@ -546,6 +552,7 @@ var test="fail";
       item120 = localStorage.getItem("item120");
       item121 = localStorage.getItem("item121");
       item122 = localStorage.getItem("item122");
+      item123 = localStorage.getItem("item123");
   }
   function showData()
   {
@@ -683,4 +690,5 @@ var test="fail";
     document.getElementById("item120").innerHTML = item120;
     document.getElementById("item121").innerHTML = item121;
     document.getElementById("item122").innerHTML = item122;
+    document.getElementById("item123").innerHTML = item123;
   }
