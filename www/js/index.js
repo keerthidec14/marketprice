@@ -136,7 +136,7 @@ var test="fail";
 
           ajaxCall();
 
-          setTimeout(ajaxCall();, 5000);
+          setTimeout(function() {ajaxCall(); }, 5000);
 
 
           $("#refresh").click(function(){
